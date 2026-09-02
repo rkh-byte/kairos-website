@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --text-nav: 16px;
+  --text-brand: 20px;
+  --leading-brand: 24.16px;
+  --breakpoint-header: 650px;
+}
+
+:root {
+  color: #020217;
+  background: #ffffff;
+  font-family: "Rethink Sans", system-ui, sans-serif;
+  font-synthesis: none;
+  text-rendering: geometricPrecision;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.render-error {
+  margin: 0;
+  padding: 24px;
+  color: #8b0000;
+  white-space: pre-wrap;
+}
